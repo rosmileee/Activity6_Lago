@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('back.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+}
+nav {
+    width: 100%;
+    background-color: #ffc7fc;
+    padding: 10px 0;
+}
+
+
+section {
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgba(252, 167, 255, 0.9);
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #000000;
+    text-align: center;
+}
+
+/* Social Media Section */
+#social-media {
+    margin-top: 30px;
+}
+
+#social-media .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#social-media h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#social-media .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#social-media .col-lg-2,
+#social-media .col-md-3,
+#social-media .col-sm-4,
+#social-media .col-6 {
+    display: flex;
+    justify-content: center;
+}
+
+#social-media a {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+#social-media img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#social-media img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

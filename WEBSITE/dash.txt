@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - To Do List</title>
+    <link rel="stylesheet" href="DashBoard.css">
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <h1>Dashboard</h1>
+            <p>You're logged in!</p>
+        </header>
+        <main>
+            <section class="todo-list">
+                <h2>To Do List</h2>
+                <form id="todo-form">
+                    <input type="text" id="todo-input" placeholder="Add a new task..." required>
+                    <button type="submit">Add</button>
+                </form>
+                <ul id="todo-items"></ul>
+            </section>
+            <section class="welcome-message">
+                <p>Welcome to your personalized to-do list dashboard! Here, you can easily manage your tasks and stay organized. Add new tasks, mark them as complete, and keep track of your progress.</p>
+            </section>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
